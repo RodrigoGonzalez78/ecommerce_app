@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ecommerce_app/models/product.dart';
+import 'package:amazon_clone/models/products.dart';
 
 class Order {
   final String id;
