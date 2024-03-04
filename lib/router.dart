@@ -1,19 +1,3 @@
-import 'package:amazon_clone/common/widgets/bottom_bar.dart';
-import 'package:amazon_clone/features/address/screens/address_list_screen.dart';
-import 'package:amazon_clone/features/address/screens/address_screen.dart';
-import 'package:amazon_clone/features/address/screens/new_address_screen.dart';
-import 'package:amazon_clone/features/admin/screen/add_product_screen.dart';
-import 'package:amazon_clone/features/auth/screens/auth_screen.dart';
-import 'package:amazon_clone/features/order/screens/order_details_screen.dart';
-import 'package:amazon_clone/features/order/screens/your_orders_screen.dart';
-import 'package:amazon_clone/features/products/screens/product_details_screen.dart';
-import 'package:amazon_clone/features/search/screens/search_screen.dart';
-import 'package:amazon_clone/features/settings/screens/your_account.dart';
-import 'package:amazon_clone/features/webview/screen/web_screen.dart';
-import 'package:amazon_clone/home/screens/category_deals_screen.dart';
-import 'package:amazon_clone/home/screens/home_screen.dart';
-import 'package:amazon_clone/models/order.dart';
-import 'package:amazon_clone/models/products.dart';
 import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings routeSettings) {

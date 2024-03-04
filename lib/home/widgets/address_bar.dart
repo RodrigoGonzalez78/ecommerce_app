@@ -1,5 +1,5 @@
-import 'package:amazon_clone/features/address/screens/address_list_screen.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
+import 'package:ecommerce_app/features/address/screens/address_list_screen.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

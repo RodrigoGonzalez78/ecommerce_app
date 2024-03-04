@@ -1,11 +1,10 @@
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/account/screens/account_screen.dart';
-import 'package:amazon_clone/features/cart/screens/cart_screen.dart';
-import 'package:amazon_clone/features/settings/screens/settings_screen.dart';
-import 'package:amazon_clone/home/screens/home_screen.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/account/screens/account_screen.dart';
+import 'package:ecommerce_app/features/cart/screens/cart_screen.dart';
+import 'package:ecommerce_app/features/settings/screens/settings_screen.dart';
+import 'package:ecommerce_app/home/screens/home_screen.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:badges/badges.dart';
 import 'package:provider/provider.dart';
 
 class BottomBar extends StatefulWidget {

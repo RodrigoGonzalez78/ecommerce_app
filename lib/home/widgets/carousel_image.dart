@@ -1,5 +1,3 @@
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 class CarouselImage extends StatelessWidget {

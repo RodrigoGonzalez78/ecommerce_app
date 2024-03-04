@@ -1,7 +1,7 @@
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/features/products/screens/product_details_screen.dart';
-import 'package:amazon_clone/home/services/home_services.dart';
-import 'package:amazon_clone/models/products.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/features/products/screens/product_details_screen.dart';
+import 'package:ecommerce_app/home/services/home_services.dart';
+import 'package:ecommerce_app/models/products.dart';
 import 'package:flutter/material.dart';
 
 class DealOfDay extends StatefulWidget {
@@ -56,8 +56,8 @@ class _DealOfDayState extends State<DealOfDay> {
                     Container(
                       alignment: Alignment.topLeft,
                       padding: const EdgeInsets.only(left: 15),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           DecoratedBox(
                             decoration: BoxDecoration(
                               color: Color.fromARGB(255, 204, 12, 57),
