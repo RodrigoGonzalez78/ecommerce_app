@@ -1,12 +1,10 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:amazon_clone/common/widgets/custom_button.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/admin/services/admin_services.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
+import 'package:ecommerce_app/common/widgets/custom_button.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/features/admin/services/admin_services.dart';
+import 'package:ecommerce_app/models/order.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
-
-import 'package:amazon_clone/models/order.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 class OrderDetailsScreen extends StatefulWidget {

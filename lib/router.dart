@@ -1,3 +1,19 @@
+import 'package:ecommerce_app/common/widgets/bottom_bar.dart';
+import 'package:ecommerce_app/features/address/screens/address_list_screen.dart';
+import 'package:ecommerce_app/features/address/screens/address_screen.dart';
+import 'package:ecommerce_app/features/address/screens/new_address_screen.dart';
+import 'package:ecommerce_app/features/admin/screen/add_product_screen.dart';
+import 'package:ecommerce_app/features/auth/screens/auth_screen.dart';
+import 'package:ecommerce_app/features/order/screens/order_details_screen.dart';
+import 'package:ecommerce_app/features/order/screens/your_orders_screen.dart';
+import 'package:ecommerce_app/features/products/screens/product_details_screen.dart';
+import 'package:ecommerce_app/features/search/screens/search_screen.dart';
+import 'package:ecommerce_app/features/settings/screens/your_account.dart';
+import 'package:ecommerce_app/features/webview/screen/web_screen.dart';
+import 'package:ecommerce_app/home/screens/category_deals_screen.dart';
+import 'package:ecommerce_app/home/screens/home_screen.dart';
+import 'package:ecommerce_app/models/order.dart';
+import 'package:ecommerce_app/models/products.dart';
 import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings routeSettings) {

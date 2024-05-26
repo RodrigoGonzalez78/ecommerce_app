@@ -1,11 +1,11 @@
-import 'package:amazon_clone/common/widgets/custom_button.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/address/screens/address_screen.dart';
-import 'package:amazon_clone/features/cart/widgets/cart_product.dart';
-import 'package:amazon_clone/features/cart/widgets/cart_sub_total.dart';
-import 'package:amazon_clone/features/cart/widgets/empty_cart.dart';
-import 'package:amazon_clone/home/widgets/address_bar.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
+import 'package:ecommerce_app/common/widgets/custom_button.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/features/address/screens/address_screen.dart';
+import 'package:ecommerce_app/features/cart/widgets/cart_product.dart';
+import 'package:ecommerce_app/features/cart/widgets/cart_sub_total.dart';
+import 'package:ecommerce_app/features/cart/widgets/empty_cart.dart';
+import 'package:ecommerce_app/home/widgets/address_bar.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

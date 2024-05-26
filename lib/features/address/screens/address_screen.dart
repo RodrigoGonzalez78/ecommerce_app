@@ -1,13 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:amazon_clone/constants/utils.dart';
-import 'package:amazon_clone/features/address/services/address_services.dart';
+import 'package:ecommerce_app/common/widgets/cusom_texfield.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/constants/utils.dart';
+import 'package:ecommerce_app/features/address/services/address_services.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:pay/pay.dart';
 import 'package:provider/provider.dart';
-
-import 'package:amazon_clone/common/widgets/cusom_texfield.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
 
 class AddressScreen extends StatefulWidget {
   static const String routeName = '/address';
@@ -197,10 +196,11 @@ class _AddressScreenState extends State<AddressScreen> {
                         height: 45,
                         style: ApplePayButtonStyle.whiteOutline,
                         type: ApplePayButtonType.buy,
-                        paymentConfigurationAsset: 'applepay.json',
                         onPaymentResult: onApplePayResult,
                         paymentItems: paymentItems,
                         onPressed: () => payPressed(address),
+                        paymentConfiguration:
+                            PaymentConfiguration.fromAsset('applepay.json'),
                       ),
                       const SizedBox(
                         height: 10,
@@ -217,6 +217,7 @@ class _AddressScreenState extends State<AddressScreen> {
                         loadingIndicator: const Center(
                           child: CircularProgressIndicator(),
                         ),
+                        paymentConfiguration: null,
                       ),
                       const SizedBox(
                         height: 20,

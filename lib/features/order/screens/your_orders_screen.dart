@@ -1,14 +1,9 @@
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/account/services/acount_services.dart';
-import 'package:amazon_clone/features/account/widgets/single_product.dart';
-import 'package:amazon_clone/features/order/screens/order_details_screen.dart';
-import 'package:amazon_clone/features/order/services/your_order_services.dart';
-import 'package:amazon_clone/features/order/widgets/order_top_view.dart';
-import 'package:amazon_clone/features/order/widgets/your_order_cell.dart';
-import 'package:amazon_clone/models/all_product.dart';
-import 'package:amazon_clone/models/order.dart';
-import 'package:amazon_clone/models/products.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/features/order/services/your_order_services.dart';
+import 'package:ecommerce_app/features/order/widgets/order_top_view.dart';
+import 'package:ecommerce_app/features/order/widgets/your_order_cell.dart';
+import 'package:ecommerce_app/models/all_product.dart';
 import 'package:flutter/material.dart';
 
 class YourOrderScreen extends StatefulWidget {

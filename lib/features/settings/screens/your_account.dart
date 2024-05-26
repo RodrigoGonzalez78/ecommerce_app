@@ -1,7 +1,7 @@
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/address/screens/address_list_screen.dart';
-import 'package:amazon_clone/features/address/screens/new_address_screen.dart';
-import 'package:amazon_clone/features/order/screens/your_orders_screen.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/features/address/screens/address_list_screen.dart';
+import 'package:ecommerce_app/features/address/screens/new_address_screen.dart';
+import 'package:ecommerce_app/features/order/screens/your_orders_screen.dart';
 import 'package:flutter/material.dart';
 
 class YourAccountScreen extends StatefulWidget {

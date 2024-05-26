@@ -1,12 +1,9 @@
-import 'package:amazon_clone/common/widgets/cusom_texfield.dart';
-import 'package:amazon_clone/common/widgets/custom_button.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/constants/utils.dart';
-import 'package:amazon_clone/features/address/services/address_services.dart';
+import 'package:ecommerce_app/common/widgets/cusom_texfield.dart';
+import 'package:ecommerce_app/common/widgets/custom_button.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/address/services/address_services.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class AddAddressScreen extends StatefulWidget {
   static const String routeName = '/add-address';

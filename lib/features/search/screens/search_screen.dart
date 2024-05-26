@@ -1,16 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'dart:convert';
-
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/products/screens/product_details_screen.dart';
-import 'package:amazon_clone/features/search/services/search_services.dart';
-import 'package:amazon_clone/features/search/widgets/search_product.dart';
-import 'package:amazon_clone/home/widgets/address_bar.dart';
-import 'package:amazon_clone/models/products.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/features/products/screens/product_details_screen.dart';
+import 'package:ecommerce_app/features/search/services/search_services.dart';
+import 'package:ecommerce_app/features/search/widgets/search_product.dart';
+import 'package:ecommerce_app/home/widgets/address_bar.dart';
+import 'package:ecommerce_app/models/products.dart';
 import 'package:flutter/material.dart';
-
-import 'package:amazon_clone/constants/global_variables.dart';
 
 class SearchScreen extends StatefulWidget {
   static const String routeName = '/search-screen';

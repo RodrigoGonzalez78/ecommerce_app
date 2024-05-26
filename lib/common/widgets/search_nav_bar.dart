@@ -1,5 +1,5 @@
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/search/screens/search_screen.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/search/screens/search_screen.dart';
 import 'package:flutter/material.dart';
 
 class SearchNavBar extends StatelessWidget {

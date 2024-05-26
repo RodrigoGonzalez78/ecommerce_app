@@ -1,8 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/features/products/screens/product_details_screen.dart';
-import 'package:amazon_clone/home/services/home_services.dart';
-import 'package:amazon_clone/models/products.dart';
+
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/features/products/screens/product_details_screen.dart';
+import 'package:ecommerce_app/home/services/home_services.dart';
+import 'package:ecommerce_app/models/products.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/global_variables.dart';

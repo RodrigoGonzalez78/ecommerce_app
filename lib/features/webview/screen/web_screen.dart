@@ -1,7 +1,6 @@
 import 'dart:io';
-import 'package:amazon_clone/constants/global_variables.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
 import 'package:flutter/material.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewScreen extends StatefulWidget {
   static const String routeName = '/webview';

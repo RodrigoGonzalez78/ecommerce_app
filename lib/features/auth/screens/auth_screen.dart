@@ -1,7 +1,7 @@
-import 'package:amazon_clone/common/widgets/cusom_texfield.dart';
-import 'package:amazon_clone/common/widgets/custom_button.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/auth/services/auth_service.dart';
+import 'package:ecommerce_app/common/widgets/cusom_texfield.dart';
+import 'package:ecommerce_app/common/widgets/custom_button.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/auth/services/auth_service.dart';
 import 'package:flutter/material.dart';
 
 enum Auth { signin, signup }

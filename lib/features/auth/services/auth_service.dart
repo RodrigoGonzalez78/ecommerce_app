@@ -1,12 +1,10 @@
 import 'dart:convert';
-
-import 'package:amazon_clone/common/widgets/bottom_bar.dart';
-import 'package:amazon_clone/constants/error_handling.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/constants/utils.dart';
-import 'package:amazon_clone/home/screens/home_screen.dart';
-import 'package:amazon_clone/models/user.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
+import 'package:ecommerce_app/common/widgets/bottom_bar.dart';
+import 'package:ecommerce_app/constants/error_handling.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/constants/utils.dart';
+import 'package:ecommerce_app/models/user.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';

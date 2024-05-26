@@ -1,10 +1,9 @@
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/account/screens/account_screen.dart';
-import 'package:amazon_clone/features/account/services/acount_services.dart';
-import 'package:amazon_clone/features/account/widgets/single_product.dart';
-import 'package:amazon_clone/features/order/screens/order_details_screen.dart';
-import 'package:amazon_clone/models/order.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/account/services/acount_services.dart';
+import 'package:ecommerce_app/features/account/widgets/single_product.dart';
+import 'package:ecommerce_app/features/order/screens/order_details_screen.dart';
+import 'package:ecommerce_app/models/order.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 

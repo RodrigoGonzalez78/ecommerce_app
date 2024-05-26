@@ -1,4 +1,4 @@
-import 'package:amazon_clone/home/widgets/address_bar.dart';
+import 'package:ecommerce_app/home/widgets/address_bar.dart';
 import 'package:flutter/material.dart';
 
 class EmptyCart extends StatelessWidget {

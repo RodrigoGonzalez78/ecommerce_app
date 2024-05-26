@@ -1,7 +1,7 @@
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/account/widgets/app_bar_title.dart';
-import 'package:amazon_clone/features/account/widgets/orders.dart';
-import 'package:amazon_clone/features/account/widgets/top_tags.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/account/widgets/app_bar_title.dart';
+import 'package:ecommerce_app/features/account/widgets/orders.dart';
+import 'package:ecommerce_app/features/account/widgets/top_tags.dart';
 import 'package:flutter/material.dart';
 
 class AccountScreen extends StatelessWidget {
@@ -32,8 +32,8 @@ class AccountScreen extends StatelessWidget {
               ),
               Container(
                 padding: const EdgeInsets.only(left: 15, right: 15),
-                child: Row(
-                  children: const [
+                child: const Row(
+                  children: [
                     Padding(
                       padding: EdgeInsets.only(right: 15),
                       child: Icon(Icons.notifications_outlined),
@@ -46,8 +46,8 @@ class AccountScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(
-        children: const [
+      body: const Column(
+        children: [
           AppBarTitle(),
           SizedBox(
             height: 10,

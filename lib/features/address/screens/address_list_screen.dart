@@ -1,10 +1,9 @@
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/address/screens/new_address_screen.dart';
-import 'package:amazon_clone/features/address/services/address_services.dart';
-import 'package:amazon_clone/features/address/widgets/address_cell.dart';
-import 'package:amazon_clone/models/address.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/address/screens/new_address_screen.dart';
+import 'package:ecommerce_app/features/address/services/address_services.dart';
+import 'package:ecommerce_app/models/address.dart';
 import 'package:flutter/material.dart';
 
 class AllAddressScreen extends StatefulWidget {
@@ -156,7 +155,7 @@ class _AllAddressScreenState extends State<AllAddressScreen> {
                 children: [
                   OutlinedButton(
                     style: OutlinedButton.styleFrom(
-                      primary: GlobalVariables.appColor,
+                      foregroundColor: GlobalVariables.appColor,
                     ),
                     onPressed: () {},
                     child: const Text(

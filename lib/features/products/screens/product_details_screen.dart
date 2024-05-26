@@ -1,15 +1,14 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:amazon_clone/common/widgets/custom_button.dart';
-import 'package:amazon_clone/common/widgets/rating_stars.dart';
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/features/products/services/product_services.dart';
-import 'package:amazon_clone/models/products.dart';
-import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:ecommerce_app/common/widgets/custom_button.dart';
+import 'package:ecommerce_app/common/widgets/rating_stars.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/products/services/product_services.dart';
+import 'package:ecommerce_app/features/search/screens/search_screen.dart';
+import 'package:ecommerce_app/models/products.dart';
+import 'package:ecommerce_app/providers/user_provider.dart';
 import 'package:flutter/material.dart';
-
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/search/screens/search_screen.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:provider/provider.dart';
 

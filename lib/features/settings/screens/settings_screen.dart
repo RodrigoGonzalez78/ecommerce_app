@@ -1,8 +1,8 @@
-import 'package:amazon_clone/common/widgets/search_nav_bar.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
-import 'package:amazon_clone/features/account/services/acount_services.dart';
-import 'package:amazon_clone/features/order/screens/your_orders_screen.dart';
-import 'package:amazon_clone/features/webview/screen/web_screen.dart';
+import 'package:ecommerce_app/common/widgets/search_nav_bar.dart';
+import 'package:ecommerce_app/constants/global_variables.dart';
+import 'package:ecommerce_app/features/account/services/acount_services.dart';
+import 'package:ecommerce_app/features/order/screens/your_orders_screen.dart';
+import 'package:ecommerce_app/features/webview/screen/web_screen.dart';
 import 'package:flutter/material.dart';
 
 class SettingScreen extends StatefulWidget {

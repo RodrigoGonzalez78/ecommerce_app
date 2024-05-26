@@ -1,7 +1,7 @@
-import 'package:amazon_clone/features/account/services/acount_services.dart';
-import 'package:amazon_clone/features/account/widgets/tags_button.dart';
-import 'package:amazon_clone/features/order/screens/your_orders_screen.dart';
-import 'package:amazon_clone/features/settings/screens/your_account.dart';
+import 'package:ecommerce_app/features/account/services/acount_services.dart';
+import 'package:ecommerce_app/features/account/widgets/tags_button.dart';
+import 'package:ecommerce_app/features/order/screens/your_orders_screen.dart';
+import 'package:ecommerce_app/features/settings/screens/your_account.dart';
 import 'package:flutter/material.dart';
 
 class TopTags extends StatelessWidget {
