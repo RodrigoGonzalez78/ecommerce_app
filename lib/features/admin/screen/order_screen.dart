@@ -1,8 +1,8 @@
-import 'package:amazon_clone/common/widgets/loader.dart';
-import 'package:amazon_clone/features/account/widgets/single_product.dart';
-import 'package:amazon_clone/features/admin/services/admin_services.dart';
-import 'package:amazon_clone/features/order/screens/order_details_screen.dart';
-import 'package:amazon_clone/models/order.dart';
+import 'package:ecommerce_app/common/widgets/loader.dart';
+import 'package:ecommerce_app/features/account/widgets/single_product.dart';
+import 'package:ecommerce_app/features/admin/services/admin_services.dart';
+import 'package:ecommerce_app/features/order/screens/order_details_screen.dart';
+import 'package:ecommerce_app/models/order.dart';
 import 'package:flutter/material.dart';
 
 class OrderScreen extends StatefulWidget {
